@@ -75,7 +75,36 @@ a {
     color: #E5E7EB;
 }
 
-img {
+#header-img {
     width: 500px;
     height: auto;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 32px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+}
+
+.card > div {
+    text-align: center;
+}
+
+.card > img {
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 10px;
 }
