@@ -80,12 +80,17 @@ a {
     height: auto;
 }
 
+.info {
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
 .info-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    padding: 32px;
+    margin-bottom: 32px;
 }
 
 .info-cards {
@@ -108,3 +113,25 @@ a {
     width: 100%;
     border-radius: 10px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 128px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bolder;
+    align-self: flex-end;
+    color: #1F2937;
+}
+
