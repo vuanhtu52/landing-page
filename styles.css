@@ -55,6 +55,8 @@ button {
     width: 150px;
     border-radius: 8px;
     padding: 8px 16px;
+    /* This removes inconsistent shading of the border */
+    border-style: solid;
 }
 
 .right {
@@ -124,7 +126,7 @@ a {
 .quote-text {
     font-size: 36px;
     font-weight: 100;
-    color: #1F2937;
+    color: grey;
     font-style: italic;
 }
 
@@ -133,5 +135,30 @@ a {
     font-weight: bolder;
     align-self: flex-end;
     color: #1F2937;
+}
+
+.action {
+    padding: 128px 128px;
+}
+
+.action-content {
+    display: flex;
+    background-color: #3882F6;
+    padding: 32px 64px;
+    justify-content: space-between;
+}
+
+.action-primary-text {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.action-secondary-text {
+    color: #E5E7EB;
+}
+
+.action-button {
+    border-color: #F9FAF8;
 }
 
